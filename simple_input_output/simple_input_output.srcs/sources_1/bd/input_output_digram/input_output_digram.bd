@@ -1,0 +1,30 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xAF6B5FC5AF6B5FC5",
+      "device": "xc7z020clg400-1",
+      "gen_directory": "../../../../simple_input_output.gen/sources_1/bd/input_output_digram",
+      "name": "input_output_digram",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.2"
+    },
+    "design_tree": {},
+    "ports": {
+      "input1": {
+        "direction": "I"
+      },
+      "output1": {
+        "direction": "O"
+      }
+    },
+    "nets": {
+      "input1_1": {
+        "ports": [
+          "input1",
+          "output1"
+        ]
+      }
+    }
+  }
+}

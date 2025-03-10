@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GitHub/viVado_Projects/Hello_World/Hello_World.srcs/sources_1/new/blinky.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blinky
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/GitHub/viVado_Projects/Hello_World/Hello_World.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
