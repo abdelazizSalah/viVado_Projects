@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sun Mar 30 12:14:46 2025
+# Process ID         : 13152
+# Current directory  : E:/GitHub/viVado_Projects/Bike/Bike.runs/blk_mem_gen_sk0_synth_1
+# Command line       : vivado.exe -log blk_mem_gen_sk0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source blk_mem_gen_sk0.tcl
+# Log file           : E:/GitHub/viVado_Projects/Bike/Bike.runs/blk_mem_gen_sk0_synth_1/blk_mem_gen_sk0.vds
+# Journal file       : E:/GitHub/viVado_Projects/Bike/Bike.runs/blk_mem_gen_sk0_synth_1\vivado.jou
+# Running On         : AbdelazizPC
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22635
+# Processor Detail   : Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz
+# CPU Frequency      : 2592 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 42772 MB
+# Swap memory        : 6174 MB
+# Total Virtual      : 48946 MB
+# Available Virtual  : 33421 MB
+#-----------------------------------------------------------
+source blk_mem_gen_sk0.tcl -notrace

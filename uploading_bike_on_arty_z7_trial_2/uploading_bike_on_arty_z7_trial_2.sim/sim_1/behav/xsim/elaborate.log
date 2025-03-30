@@ -1,0 +1,24 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot BIKE_SAMPLER_PARALLEL_behav xil_defaultlib.BIKE_SAMPLER_PARALLEL -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package xil_defaultlib.bike_settings
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture behavioral of entity xil_defaultlib.RegisterFDRE [\RegisterFDRE(size=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.BIKE_COUNTER_INC_STOP [\BIKE_COUNTER_INC_STOP(size=4,ma...]
+Compiling architecture behavioral of entity xil_defaultlib.bike_sampler_parallel
+Built simulation snapshot BIKE_SAMPLER_PARALLEL_behav

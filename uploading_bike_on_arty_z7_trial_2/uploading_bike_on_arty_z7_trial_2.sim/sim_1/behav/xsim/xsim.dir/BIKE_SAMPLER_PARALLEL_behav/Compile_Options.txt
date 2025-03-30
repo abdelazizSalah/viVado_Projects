@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "BIKE_SAMPLER_PARALLEL_behav" "xil_defaultlib.BIKE_SAMPLER_PARALLEL" -log "elaborate.log" 

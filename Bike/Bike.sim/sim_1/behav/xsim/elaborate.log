@@ -1,0 +1,70 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_9 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TB_BIKE_behav xil_defaultlib.TB_BIKE xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-2686] null range choice is ignored [E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/B32S1/BIKE_sampler.vhd:101]
+WARNING: [VRFC 10-2686] null range choice is ignored [E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/B32S1/BIKE_generic_bram_shared.vhd:115]
+WARNING: [VRFC 10-2686] null range choice is ignored [E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/B32S1/BIKE_generic_bram_shared.vhd:116]
+WARNING: [VRFC 10-2686] null range choice is ignored [E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/B32S1/BIKE_sampler_uniform.vhd:96]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_textio
+Compiling package xil_defaultlib.bike_settings
+Compiling package ieee.math_real
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package unimacro.vcomponents
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling module xil_defaultlib.glbl
+Compiling architecture stub of entity xil_defaultlib.blk_mem_gen_pk [blk_mem_gen_pk_default]
+Compiling architecture stub of entity xil_defaultlib.blk_mem_gen_sk0 [blk_mem_gen_sk0_default]
+Compiling architecture stub of entity xil_defaultlib.blk_mem_gen_sk1 [blk_mem_gen_sk1_default]
+Compiling architecture stub of entity xil_defaultlib.blk_mem_gen_sigma [blk_mem_gen_sigma_default]
+Compiling architecture behavioral of entity xil_defaultlib.button_led [button_led_default]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture behavioral of entity xil_defaultlib.RegisterFDRE [\RegisterFDRE(size=5)\]
+Compiling architecture behavioral of entity xil_defaultlib.BIKE_COUNTER_INC_STOP [\BIKE_COUNTER_INC_STOP(size=7,ma...]
+Compiling architecture behavioral of entity xil_defaultlib.BIKE_SAMPLER [\BIKE_SAMPLER(threshold=71)\]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(init_a="0000...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(read_width_a=36,read_w...]
+Compiling architecture behavioral of entity xil_defaultlib.BIKE_BRAM_DUAL_PORT [bike_bram_dual_port_default]
+Compiling architecture behavioral of entity xil_defaultlib.BIKE_GENERIC_BRAM_SHARED [bike_generic_bram_shared_default]
+Compiling architecture behavioral of entity xil_defaultlib.BIKE_BRAM [bike_bram_default]
+Compiling architecture behavioral of entity xil_defaultlib.BIKE_INVERSION_BRAM_ASSIGNMENT [\BIKE_INVERSION_BRAM_ASSIGNMENT(...]
+Compiling architecture behavioral of entity xil_defaultlib.BIKE_INVERSION_BRAM_ASSIGNMENT [\BIKE_INVERSION_BRAM_ASSIGNMENT(...]
+Compiling architecture behavioral of entity xil_defaultlib.BIKE_INVERSION_BRAM_ASSIGNMENT [\BIKE_INVERSION_BRAM_ASSIGNMENT(...]
+Compiling architecture behavioral of entity xil_defaultlib.BIKE_INVERSION_FSM_BRAM [bike_inversion_fsm_bram_default]
+Compiling architecture behavioral of entity xil_defaultlib.BIKE_COUNTER_INC_STOP [\BIKE_COUNTER_INC_STOP(size=13,m...]
+Compiling architecture behavioral of entity xil_defaultlib.BIKE_COUNTER_INC_STOP [\BIKE_COUNTER_INC_STOP(size=4,ma...]
+Compiling architecture behavioral of entity xil_defaultlib.BIKE_COUNTER_INC_STOP [\BIKE_COUNTER_INC_STOP(size=9,ma...]
+Compiling architecture behavioral of entity xil_defaultlib.BIKE_COUNTER_INC_STOP [\BIKE_COUNTER_INC_STOP(size=1,ma...]
+Compiling architecture behavioral of entity xil_defaultlib.BIKE_COUNTER_INC_INIT [\BIKE_COUNTER_INC_INIT(size=9,ma...]
+Compiling architecture behavioral of entity xil_defaultlib.BIKE_COUNTER_INC_INIT [\BIKE_COUNTER_INC_INIT(size=9,ma...]
+Compiling architecture behavioral of entity xil_defaultlib.RegisterFDRE [\RegisterFDRE(size=32)\]
+Compiling architecture behavioral of entity xil_defaultlib.BIKE_SQUARING_K1_GENERIC [bike_squaring_k1_generic_default]
+Compiling architecture behavioral of entity xil_defaultlib.RegisterFDRE [\RegisterFDRE(size=29)\]
+Compiling architecture behavioral of entity xil_defaultlib.RegisterFDRE [\RegisterFDRE(size=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.RegisterFDRE [\RegisterFDRE(size=31)\]
+Compiling architecture behavioral of entity xil_defaultlib.BIKE_COUNTER_INC [\BIKE_COUNTER_INC(size=9,max_val...]
+Compiling architecture behavioral of entity xil_defaultlib.BIKE_COUNTER_INC [\BIKE_COUNTER_INC(size=9,max_val...]
+Compiling architecture behavioral of entity xil_defaultlib.BIKE_MULTIPLIER [bike_multiplier_default]
+Compiling architecture behavioral of entity xil_defaultlib.BIKE_GENERIC_BRAM [\BIKE_GENERIC_BRAM(output_bram=1...]
+Compiling architecture behavioral of entity xil_defaultlib.BIKE_BRAM_SP [\BIKE_BRAM_SP(output_bram=1)\]
+Compiling architecture structural of entity xil_defaultlib.BIKE_INVERSION [bike_inversion_default]
+Compiling architecture behavioral of entity xil_defaultlib.BIKE_COUNTER_INC_STOP [\BIKE_COUNTER_INC_STOP(size=3,ma...]
+Compiling architecture behavioral of entity xil_defaultlib.BIKE_SAMPLER_UNIFORM [bike_sampler_uniform_default]
+Compiling architecture structural of entity xil_defaultlib.BIKE [bike_default]
+Compiling architecture structural of entity xil_defaultlib.tb_bike
+Built simulation snapshot TB_BIKE_behav

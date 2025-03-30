@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB_BIKE_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TB_BIKE" />
+            <top_module name="bike_settings" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="562,149,718.459 ns"></ZoomStartTime>
+      <ZoomEndTime time="562,153,168.460 ns"></ZoomEndTime>
+      <Cursor1Time time="73,707,780.100 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="315"></NameColumnWidth>
+      <ValueColumnWidth column_width="204"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="117" />
+   <wvobject fp_name="/TB_BIKE/UUT/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/ENABLE" type="logic">
+      <obj_property name="ElementShortName">ENABLE</obj_property>
+      <obj_property name="ObjectShortName">ENABLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/KEYGEN_DONE" type="logic">
+      <obj_property name="ElementShortName">KEYGEN_DONE</obj_property>
+      <obj_property name="ObjectShortName">KEYGEN_DONE</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK0_RAND" type="array">
+      <obj_property name="ElementShortName">SK0_RAND[13:0]</obj_property>
+      <obj_property name="ObjectShortName">SK0_RAND[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK1_RAND" type="array">
+      <obj_property name="ElementShortName">SK1_RAND[13:0]</obj_property>
+      <obj_property name="ObjectShortName">SK1_RAND[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SIGMA_RAND" type="array">
+      <obj_property name="ElementShortName">SIGMA_RAND[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SIGMA_RAND[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/PK_OUT" type="array">
+      <obj_property name="ElementShortName">PK_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PK_OUT[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/KEYGEN_SAMPLE_ENABLE" type="logic">
+      <obj_property name="ElementShortName">KEYGEN_SAMPLE_ENABLE</obj_property>
+      <obj_property name="ObjectShortName">KEYGEN_SAMPLE_ENABLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK0_SAMPLE_DONE" type="logic">
+      <obj_property name="ElementShortName">SK0_SAMPLE_DONE</obj_property>
+      <obj_property name="ObjectShortName">SK0_SAMPLE_DONE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK1_SAMPLE_DONE" type="logic">
+      <obj_property name="ElementShortName">SK1_SAMPLE_DONE</obj_property>
+      <obj_property name="ObjectShortName">SK1_SAMPLE_DONE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK0_DIN_A" type="array">
+      <obj_property name="ElementShortName">SK0_DIN_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SK0_DIN_A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK0_DIN_B" type="array">
+      <obj_property name="ElementShortName">SK0_DIN_B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SK0_DIN_B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK1_DIN_A" type="array">
+      <obj_property name="ElementShortName">SK1_DIN_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SK1_DIN_A[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK1_DIN_B" type="array">
+      <obj_property name="ElementShortName">SK1_DIN_B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SK1_DIN_B[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK0_SAMPLE_RAND" type="array">
+      <obj_property name="ElementShortName">SK0_SAMPLE_RAND[13:0]</obj_property>
+      <obj_property name="ObjectShortName">SK0_SAMPLE_RAND[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK1_SAMPLE_RAND" type="array">
+      <obj_property name="ElementShortName">SK1_SAMPLE_RAND[13:0]</obj_property>
+      <obj_property name="ObjectShortName">SK1_SAMPLE_RAND[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK0_SAMPLE_RDEN" type="logic">
+      <obj_property name="ElementShortName">SK0_SAMPLE_RDEN</obj_property>
+      <obj_property name="ObjectShortName">SK0_SAMPLE_RDEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK0_SAMPLE_WREN" type="logic">
+      <obj_property name="ElementShortName">SK0_SAMPLE_WREN</obj_property>
+      <obj_property name="ObjectShortName">SK0_SAMPLE_WREN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK0_SAMPLE_ADDR" type="array">
+      <obj_property name="ElementShortName">SK0_SAMPLE_ADDR[8:0]</obj_property>
+      <obj_property name="ObjectShortName">SK0_SAMPLE_ADDR[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK0_SAMPLE_DOUT" type="array">
+      <obj_property name="ElementShortName">SK0_SAMPLE_DOUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SK0_SAMPLE_DOUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK1_SAMPLE_RDEN" type="logic">
+      <obj_property name="ElementShortName">SK1_SAMPLE_RDEN</obj_property>
+      <obj_property name="ObjectShortName">SK1_SAMPLE_RDEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK1_SAMPLE_WREN" type="logic">
+      <obj_property name="ElementShortName">SK1_SAMPLE_WREN</obj_property>
+      <obj_property name="ObjectShortName">SK1_SAMPLE_WREN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK1_SAMPLE_ADDR" type="array">
+      <obj_property name="ElementShortName">SK1_SAMPLE_ADDR[8:0]</obj_property>
+      <obj_property name="ObjectShortName">SK1_SAMPLE_ADDR[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK1_SAMPLE_DOUT" type="array">
+      <obj_property name="ElementShortName">SK1_SAMPLE_DOUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SK1_SAMPLE_DOUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/DONE_OUT" type="logic">
+      <obj_property name="ElementShortName">DONE_OUT</obj_property>
+      <obj_property name="ObjectShortName">DONE_OUT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV_RESET" type="logic">
+      <obj_property name="ElementShortName">INV_RESET</obj_property>
+      <obj_property name="ObjectShortName">INV_RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV_ENABLE" type="logic">
+      <obj_property name="ElementShortName">INV_ENABLE</obj_property>
+      <obj_property name="ObjectShortName">INV_ENABLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV_DONE" type="logic">
+      <obj_property name="ElementShortName">INV_DONE</obj_property>
+      <obj_property name="ObjectShortName">INV_DONE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK0_INV_RDEN" type="logic">
+      <obj_property name="ElementShortName">SK0_INV_RDEN</obj_property>
+      <obj_property name="ObjectShortName">SK0_INV_RDEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK1_INV_RDEN" type="logic">
+      <obj_property name="ElementShortName">SK1_INV_RDEN</obj_property>
+      <obj_property name="ObjectShortName">SK1_INV_RDEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK0_INV_WREN" type="logic">
+      <obj_property name="ElementShortName">SK0_INV_WREN</obj_property>
+      <obj_property name="ObjectShortName">SK0_INV_WREN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK1_INV_WREN" type="logic">
+      <obj_property name="ElementShortName">SK1_INV_WREN</obj_property>
+      <obj_property name="ObjectShortName">SK1_INV_WREN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK0_INV_ADDR" type="array">
+      <obj_property name="ElementShortName">SK0_INV_ADDR[8:0]</obj_property>
+      <obj_property name="ObjectShortName">SK0_INV_ADDR[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK1_INV_ADDR" type="array">
+      <obj_property name="ElementShortName">SK1_INV_ADDR[8:0]</obj_property>
+      <obj_property name="ObjectShortName">SK1_INV_ADDR[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK0_INV_DIN" type="array">
+      <obj_property name="ElementShortName">SK0_INV_DIN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SK0_INV_DIN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK1_INV_DIN" type="array">
+      <obj_property name="ElementShortName">SK1_INV_DIN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SK1_INV_DIN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK0_INV_DOUT" type="array">
+      <obj_property name="ElementShortName">SK0_INV_DOUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SK0_INV_DOUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SK1_INV_DOUT" type="array">
+      <obj_property name="ElementShortName">SK1_INV_DOUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SK1_INV_DOUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV_DOUT" type="array">
+      <obj_property name="ElementShortName">INV_DOUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INV_DOUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SIGMA_SAMPLE_RESET" type="logic">
+      <obj_property name="ElementShortName">SIGMA_SAMPLE_RESET</obj_property>
+      <obj_property name="ObjectShortName">SIGMA_SAMPLE_RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SIGMA_SAMPLE_ENABLE" type="logic">
+      <obj_property name="ElementShortName">SIGMA_SAMPLE_ENABLE</obj_property>
+      <obj_property name="ObjectShortName">SIGMA_SAMPLE_ENABLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SIGMA_SAMPLE_DONE" type="logic">
+      <obj_property name="ElementShortName">SIGMA_SAMPLE_DONE</obj_property>
+      <obj_property name="ObjectShortName">SIGMA_SAMPLE_DONE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SIGMA_SAMPLE_RDEN" type="logic">
+      <obj_property name="ElementShortName">SIGMA_SAMPLE_RDEN</obj_property>
+      <obj_property name="ObjectShortName">SIGMA_SAMPLE_RDEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SIGMA_SAMPLE_WREN" type="logic">
+      <obj_property name="ElementShortName">SIGMA_SAMPLE_WREN</obj_property>
+      <obj_property name="ObjectShortName">SIGMA_SAMPLE_WREN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SIGMA_SAMPLE_ADDR" type="array">
+      <obj_property name="ElementShortName">SIGMA_SAMPLE_ADDR[2:0]</obj_property>
+      <obj_property name="ObjectShortName">SIGMA_SAMPLE_ADDR[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SIGMA_SAMPLE_DOUT" type="array">
+      <obj_property name="ElementShortName">SIGMA_SAMPLE_DOUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SIGMA_SAMPLE_DOUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SIGMA_REG_IN" type="array">
+      <obj_property name="ElementShortName">SIGMA_REG_IN[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">SIGMA_REG_IN[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SIGMA_REG_OUT" type="array">
+      <obj_property name="ElementShortName">SIGMA_REG_OUT[7:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">SIGMA_REG_OUT[7:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SIGMA_REG_EN" type="array">
+      <obj_property name="ElementShortName">SIGMA_REG_EN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">SIGMA_REG_EN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/SAMPLE_RESET" type="logic">
+      <obj_property name="ElementShortName">SAMPLE_RESET</obj_property>
+      <obj_property name="ObjectShortName">SAMPLE_RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/ENCODING_RESET" type="logic">
+      <obj_property name="ElementShortName">ENCODING_RESET</obj_property>
+      <obj_property name="ObjectShortName">ENCODING_RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/ENCAPS_RESET" type="logic">
+      <obj_property name="ElementShortName">ENCAPS_RESET</obj_property>
+      <obj_property name="ObjectShortName">ENCAPS_RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/OUTPUT_DONE" type="logic">
+      <obj_property name="ElementShortName">OUTPUT_DONE</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_DONE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/STATE" type="other">
+      <obj_property name="ElementShortName">STATE</obj_property>
+      <obj_property name="ObjectShortName">STATE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/ENABLE" type="logic">
+      <obj_property name="ElementShortName">ENABLE</obj_property>
+      <obj_property name="ObjectShortName">ENABLE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/DONE" type="logic">
+      <obj_property name="ElementShortName">DONE</obj_property>
+      <obj_property name="ObjectShortName">DONE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESULT_RDEN" type="logic">
+      <obj_property name="ElementShortName">RESULT_RDEN</obj_property>
+      <obj_property name="ObjectShortName">RESULT_RDEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESULT_WREN" type="logic">
+      <obj_property name="ElementShortName">RESULT_WREN</obj_property>
+      <obj_property name="ObjectShortName">RESULT_WREN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESULT_ADDR" type="array">
+      <obj_property name="ElementShortName">RESULT_ADDR[8:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT_ADDR[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESULT_DOUT_0" type="array">
+      <obj_property name="ElementShortName">RESULT_DOUT_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT_DOUT_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESULT_DIN_0" type="array">
+      <obj_property name="ElementShortName">RESULT_DIN_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT_DIN_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/K_RDEN" type="logic">
+      <obj_property name="ElementShortName">K_RDEN</obj_property>
+      <obj_property name="ObjectShortName">K_RDEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/K_WREN" type="logic">
+      <obj_property name="ElementShortName">K_WREN</obj_property>
+      <obj_property name="ObjectShortName">K_WREN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/K_ADDR" type="array">
+      <obj_property name="ElementShortName">K_ADDR[8:0]</obj_property>
+      <obj_property name="ObjectShortName">K_ADDR[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/K_DOUT_0" type="array">
+      <obj_property name="ElementShortName">K_DOUT_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">K_DOUT_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/K_DIN_0" type="array">
+      <obj_property name="ElementShortName">K_DIN_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">K_DIN_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/M_RDEN" type="logic">
+      <obj_property name="ElementShortName">M_RDEN</obj_property>
+      <obj_property name="ObjectShortName">M_RDEN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/M_ADDR" type="array">
+      <obj_property name="ElementShortName">M_ADDR[8:0]</obj_property>
+      <obj_property name="ObjectShortName">M_ADDR[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/M_DIN" type="array">
+      <obj_property name="ElementShortName">M_DIN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_DIN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/WRITE_LAST" type="logic">
+      <obj_property name="ElementShortName">WRITE_LAST</obj_property>
+      <obj_property name="ObjectShortName">WRITE_LAST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/WRITE_FRAC" type="logic">
+      <obj_property name="ElementShortName">WRITE_FRAC</obj_property>
+      <obj_property name="ObjectShortName">WRITE_FRAC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/SEL_LOW" type="array">
+      <obj_property name="ElementShortName">SEL_LOW[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SEL_LOW[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/SEL_LOW_D" type="array">
+      <obj_property name="ElementShortName">SEL_LOW_D[1:0]</obj_property>
+      <obj_property name="ObjectShortName">SEL_LOW_D[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/CNT_ROW_EN" type="logic">
+      <obj_property name="ElementShortName">CNT_ROW_EN</obj_property>
+      <obj_property name="ObjectShortName">CNT_ROW_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/CNT_ROW_RST" type="logic">
+      <obj_property name="ElementShortName">CNT_ROW_RST</obj_property>
+      <obj_property name="ObjectShortName">CNT_ROW_RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/CNT_COL_EN" type="logic">
+      <obj_property name="ElementShortName">CNT_COL_EN</obj_property>
+      <obj_property name="ObjectShortName">CNT_COL_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/CNT_COL_RST" type="logic">
+      <obj_property name="ElementShortName">CNT_COL_RST</obj_property>
+      <obj_property name="ObjectShortName">CNT_COL_RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/CNT_SHIFT_EN" type="logic">
+      <obj_property name="ElementShortName">CNT_SHIFT_EN</obj_property>
+      <obj_property name="ObjectShortName">CNT_SHIFT_EN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/CNT_SHIFT_RST" type="logic">
+      <obj_property name="ElementShortName">CNT_SHIFT_RST</obj_property>
+      <obj_property name="ObjectShortName">CNT_SHIFT_RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/CNT_ROW_OUT" type="array">
+      <obj_property name="ElementShortName">CNT_ROW_OUT[8:0]</obj_property>
+      <obj_property name="ObjectShortName">CNT_ROW_OUT[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/CNT_COL_OUT" type="array">
+      <obj_property name="ElementShortName">CNT_COL_OUT[8:0]</obj_property>
+      <obj_property name="ObjectShortName">CNT_COL_OUT[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/CNT_SHIFT_OUT" type="array">
+      <obj_property name="ElementShortName">CNT_SHIFT_OUT[8:0]</obj_property>
+      <obj_property name="ObjectShortName">CNT_SHIFT_OUT[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/K_ADDR_INT" type="array">
+      <obj_property name="ElementShortName">K_ADDR_INT[8:0]</obj_property>
+      <obj_property name="ObjectShortName">K_ADDR_INT[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/K_KEY0_MSBS_D" type="array">
+      <obj_property name="ElementShortName">K_KEY0_MSBS_D[28:0]</obj_property>
+      <obj_property name="ObjectShortName">K_KEY0_MSBS_D[28:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/K_KEY1_MSBS_D" type="array">
+      <obj_property name="ElementShortName">K_KEY1_MSBS_D[28:0]</obj_property>
+      <obj_property name="ObjectShortName">K_KEY1_MSBS_D[28:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/INT_IN_0" type="array">
+      <obj_property name="ElementShortName">INT_IN_0[30:0]</obj_property>
+      <obj_property name="ObjectShortName">INT_IN_0[30:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/INT_OUT_0" type="array">
+      <obj_property name="ElementShortName">INT_OUT_0[30:0]</obj_property>
+      <obj_property name="ObjectShortName">INT_OUT_0[30:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/INT_IN_1" type="array">
+      <obj_property name="ElementShortName">INT_IN_1[30:0]</obj_property>
+      <obj_property name="ObjectShortName">INT_IN_1[30:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/INT_OUT_1" type="array">
+      <obj_property name="ElementShortName">INT_OUT_1[30:0]</obj_property>
+      <obj_property name="ObjectShortName">INT_OUT_1[30:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESULT_SUBARRAY_0" type="array">
+      <obj_property name="ElementShortName">RESULT_SUBARRAY_0[1023:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT_SUBARRAY_0[1023:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESULT_SUBARRAY_1" type="array">
+      <obj_property name="ElementShortName">RESULT_SUBARRAY_1[1023:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT_SUBARRAY_1[1023:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESULT_UPPER_SUBARRAY_REORDERED_0" type="array">
+      <obj_property name="ElementShortName">RESULT_UPPER_SUBARRAY_REORDERED_0[527:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT_UPPER_SUBARRAY_REORDERED_0[527:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESULT_UPPER_SUBARRAY_REORDERED_1" type="array">
+      <obj_property name="ElementShortName">RESULT_UPPER_SUBARRAY_REORDERED_1[527:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT_UPPER_SUBARRAY_REORDERED_1[527:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESULT_LOWER_SUBARRAY_REORDERED_0" type="array">
+      <obj_property name="ElementShortName">RESULT_LOWER_SUBARRAY_REORDERED_0[495:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT_LOWER_SUBARRAY_REORDERED_0[495:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESULT_LOWER_SUBARRAY_REORDERED_1" type="array">
+      <obj_property name="ElementShortName">RESULT_LOWER_SUBARRAY_REORDERED_1[495:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT_LOWER_SUBARRAY_REORDERED_1[495:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESULT_LOWER_SUBARRAY_REORDERED_INIT1_0" type="array">
+      <obj_property name="ElementShortName">RESULT_LOWER_SUBARRAY_REORDERED_INIT1_0[495:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT_LOWER_SUBARRAY_REORDERED_INIT1_0[495:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESULT_LOWER_SUBARRAY_REORDERED_INIT1_1" type="array">
+      <obj_property name="ElementShortName">RESULT_LOWER_SUBARRAY_REORDERED_INIT1_1[495:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT_LOWER_SUBARRAY_REORDERED_INIT1_1[495:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESULT_LOWER_SUBARRAY_REORDERED_INIT2_0" type="array">
+      <obj_property name="ElementShortName">RESULT_LOWER_SUBARRAY_REORDERED_INIT2_0[495:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT_LOWER_SUBARRAY_REORDERED_INIT2_0[495:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESULT_LOWER_SUBARRAY_REORDERED_INIT2_1" type="array">
+      <obj_property name="ElementShortName">RESULT_LOWER_SUBARRAY_REORDERED_INIT2_1[495:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT_LOWER_SUBARRAY_REORDERED_INIT2_1[495:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESULT_TRAPEZOIDAL_UPPER_ADDITION_0" type="array">
+      <obj_property name="ElementShortName">RESULT_TRAPEZOIDAL_UPPER_ADDITION_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT_TRAPEZOIDAL_UPPER_ADDITION_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESULT_TRAPEZOIDAL_UPPER_ADDITION_1" type="array">
+      <obj_property name="ElementShortName">RESULT_TRAPEZOIDAL_UPPER_ADDITION_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT_TRAPEZOIDAL_UPPER_ADDITION_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESULT_UPPER_INT_ADD_0" type="array">
+      <obj_property name="ElementShortName">RESULT_UPPER_INT_ADD_0[527:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT_UPPER_INT_ADD_0[527:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESULT_UPPER_INT_ADD_1" type="array">
+      <obj_property name="ElementShortName">RESULT_UPPER_INT_ADD_1[527:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT_UPPER_INT_ADD_1[527:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESULT_LOWER_SUBARRAY_ADD_IN_0" type="array">
+      <obj_property name="ElementShortName">RESULT_LOWER_SUBARRAY_ADD_IN_0[495:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT_LOWER_SUBARRAY_ADD_IN_0[495:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESULT_LOWER_SUBARRAY_ADD_IN_1" type="array">
+      <obj_property name="ElementShortName">RESULT_LOWER_SUBARRAY_ADD_IN_1[495:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT_LOWER_SUBARRAY_ADD_IN_1[495:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESULT_TRAPEZOIDAL_LOWER_ADDITION_0" type="array">
+      <obj_property name="ElementShortName">RESULT_TRAPEZOIDAL_LOWER_ADDITION_0[30:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT_TRAPEZOIDAL_LOWER_ADDITION_0[30:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESULT_TRAPEZOIDAL_LOWER_ADDITION_1" type="array">
+      <obj_property name="ElementShortName">RESULT_TRAPEZOIDAL_LOWER_ADDITION_1[30:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT_TRAPEZOIDAL_LOWER_ADDITION_1[30:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESULT_LOWER_INT_ADD_0" type="array">
+      <obj_property name="ElementShortName">RESULT_LOWER_INT_ADD_0[495:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT_LOWER_INT_ADD_0[495:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESULT_LOWER_INT_ADD_1" type="array">
+      <obj_property name="ElementShortName">RESULT_LOWER_INT_ADD_1[495:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT_LOWER_INT_ADD_1[495:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESULT_DOUT_ADD_0" type="array">
+      <obj_property name="ElementShortName">RESULT_DOUT_ADD_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT_DOUT_ADD_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/RESULT_DOUT_ADD_1" type="array">
+      <obj_property name="ElementShortName">RESULT_DOUT_ADD_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RESULT_DOUT_ADD_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/STATE" type="other">
+      <obj_property name="ElementShortName">STATE</obj_property>
+      <obj_property name="ObjectShortName">STATE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/WORDS" type="other">
+      <obj_property name="ElementShortName">WORDS</obj_property>
+      <obj_property name="ObjectShortName">WORDS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_BIKE/UUT/INV/MUL/OVERHANG" type="other">
+      <obj_property name="ElementShortName">OVERHANG</obj_property>
+      <obj_property name="ObjectShortName">OVERHANG</obj_property>
+   </wvobject>
+</wave_config>

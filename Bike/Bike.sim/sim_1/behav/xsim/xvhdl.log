@@ -1,0 +1,61 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/B32S1/BIKE_settings.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/B32S1/RegisterFDRE.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RegisterFDRE'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/B32S1/BIKE_counter_inc_stop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BIKE_COUNTER_INC_STOP'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/B32S1/BIKE_sampler.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BIKE_SAMPLER'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/B32S1/BIKE_bram_dual_port.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BIKE_BRAM_DUAL_PORT'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/B32S1/BIKE_generic_bram_shared.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BIKE_GENERIC_BRAM_SHARED'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/B32S1/BIKE_generic_bram.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BIKE_GENERIC_BRAM'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/B32S1/BIKE_BRAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BIKE_BRAM'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/B32S1/BIKE_inversion_bram_assignment.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BIKE_INVERSION_BRAM_ASSIGNMENT'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/B32S1/BIKE_inversion_fsm_bram.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BIKE_INVERSION_FSM_BRAM'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/B32S1/BIKE_counter_inc_init.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BIKE_COUNTER_INC_INIT'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/B32S1/BIKE_squaring_k1_generic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BIKE_SQUARING_K1_GENERIC'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/B32S1/BIKE_counter_inc.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BIKE_COUNTER_INC'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/B32S1/BIKE_multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BIKE_MULTIPLIER'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/B32S1/BIKE_BRAM_single_port.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BIKE_BRAM_SP'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/B32S1/BIKE_inversion.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BIKE_INVERSION'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/B32S1/BIKE_sampler_uniform.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BIKE_SAMPLER_UNIFORM'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/B32S1/BIKE.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BIKE'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/ip/blk_mem_gen_pk/synth/blk_mem_gen_pk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'blk_mem_gen_pk'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/synth/blk_mem_gen_pk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'blk_mem_gen_pk'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/ip/blk_mem_gen_pk/blk_mem_gen_pk_stub.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'blk_mem_gen_pk'
+WARNING: [VRFC 10-3607] overwriting existing primary unit 'blk_mem_gen_pk' [E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/ip/blk_mem_gen_pk/blk_mem_gen_pk_stub.vhdl:16]
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/synth/blk_mem_gen_sk0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'blk_mem_gen_sk0'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/ip/blk_mem_gen_sk0/blk_mem_gen_sk0_stub.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'blk_mem_gen_sk0'
+WARNING: [VRFC 10-3607] overwriting existing primary unit 'blk_mem_gen_sk0' [E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/ip/blk_mem_gen_sk0/blk_mem_gen_sk0_stub.vhdl:16]
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/ip/blk_mem_gen_sk1/synth/blk_mem_gen_sk1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'blk_mem_gen_sk1'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/ip/blk_mem_gen_sk1/blk_mem_gen_sk1_stub.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'blk_mem_gen_sk1'
+WARNING: [VRFC 10-3607] overwriting existing primary unit 'blk_mem_gen_sk1' [E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/ip/blk_mem_gen_sk1/blk_mem_gen_sk1_stub.vhdl:16]
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/ip/blk_mem_gen_sigma/synth/blk_mem_gen_sigma.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'blk_mem_gen_sigma'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/ip/blk_mem_gen_sigma/blk_mem_gen_sigma_stub.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'blk_mem_gen_sigma'
+WARNING: [VRFC 10-3607] overwriting existing primary unit 'blk_mem_gen_sigma' [E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/ip/blk_mem_gen_sigma/blk_mem_gen_sigma_stub.vhdl:16]
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/Bike_Implementation/mohab_led.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'button_led'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/Bike/Bike.srcs/sources_1/imports/B32S1/TB_BIKE.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TB_BIKE'

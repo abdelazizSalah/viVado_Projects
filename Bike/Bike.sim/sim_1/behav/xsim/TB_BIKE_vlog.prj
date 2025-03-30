@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Bike.gen/sources_1/ip/blk_mem_gen_sigma/sim/blk_mem_gen_sigma.v" \
+"../../../../Bike.gen/sources_1/ip/blk_mem_gen_sk1/sim/blk_mem_gen_sk1.v" \
+"../../../../Bike.gen/sources_1/ip/blk_mem_gen_sk0/sim/blk_mem_gen_sk0.v" \
+"../../../../Bike.gen/sources_1/ip/blk_mem_gen_pk/sim/blk_mem_gen_pk.v" \
+"../../../../Bike.srcs/sources_1/imports/ip/blk_mem_gen_sk1/simulation/blk_mem_gen_v8_4.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

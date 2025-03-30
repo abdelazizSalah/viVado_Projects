@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../uploading_bike_on_arty_z7_trial_2.srcs/sources_1/imports/B32/RegisterFDRE.vhd" \
+"../../../../uploading_bike_on_arty_z7_trial_2.srcs/sources_1/imports/B32/BIKE_settings.vhd" \
+"../../../../uploading_bike_on_arty_z7_trial_2.srcs/sources_1/imports/B32/BIKE_counter_inc_stop.vhd" \
+"../../../../uploading_bike_on_arty_z7_trial_2.srcs/sources_1/imports/B32/BIKE_sampler_parallel.vhd" \
+
+# Do not sort compile order
+nosort

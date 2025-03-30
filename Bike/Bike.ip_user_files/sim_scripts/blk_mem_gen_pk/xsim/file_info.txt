@@ -1,0 +1,2 @@
+blk_mem_gen_pk.v,verilog,xil_defaultlib,../../../../Bike.gen/sources_1/ip/blk_mem_gen_pk/sim/blk_mem_gen_pk.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

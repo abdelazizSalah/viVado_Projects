@@ -1,0 +1,7 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/uploading_bike_on_arty_z7_trial_2/uploading_bike_on_arty_z7_trial_2.srcs/sources_1/imports/B32/RegisterFDRE.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RegisterFDRE'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/uploading_bike_on_arty_z7_trial_2/uploading_bike_on_arty_z7_trial_2.srcs/sources_1/imports/B32/BIKE_settings.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/uploading_bike_on_arty_z7_trial_2/uploading_bike_on_arty_z7_trial_2.srcs/sources_1/imports/B32/BIKE_counter_inc_stop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BIKE_COUNTER_INC_STOP'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/uploading_bike_on_arty_z7_trial_2/uploading_bike_on_arty_z7_trial_2.srcs/sources_1/imports/B32/BIKE_sampler_parallel.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BIKE_SAMPLER_PARALLEL'

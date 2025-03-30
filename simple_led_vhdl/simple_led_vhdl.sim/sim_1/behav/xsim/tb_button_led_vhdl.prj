@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../simple_led_vhdl.srcs/sources_1/imports/Bike_Implementation/mohab_led.vhd" \
+"../../../../simple_led_vhdl.srcs/sources_1/imports/Bike_Implementation/mohab_led_tb.vhd" \
+
+# Do not sort compile order
+nosort

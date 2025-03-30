@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/simple_led_vhdl/simple_led_vhdl.srcs/sources_1/imports/Bike_Implementation/mohab_led.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'button_led'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/GitHub/viVado_Projects/simple_led_vhdl/simple_led_vhdl.srcs/sources_1/imports/Bike_Implementation/mohab_led_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_button_led'
