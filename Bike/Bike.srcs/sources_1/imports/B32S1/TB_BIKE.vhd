@@ -45,7 +45,9 @@ ENTITY TB_BIKE IS
         btn  : in  STD_LOGIC;
         led  : out STD_LOGIC;
         CLK             : IN  STD_LOGIC;
-        KEY_GENERATION2 : OUT STD_LOGIC
+        KEY_GENERATION2 : OUT STD_LOGIC;
+        reset_btn  : in STD_LOGIC
+        
     );
 END TB_BIKE;
 
@@ -72,8 +74,8 @@ ARCHITECTURE Structural OF TB_BIKE IS
         ENABLE          : IN  STD_LOGIC;
         KEYGEN_DONE     : OUT STD_LOGIC;
         -- RANDOMNESS-------------------
-        SK0_RAND        : IN  STD_LOGIC_VECTOR(LOG2(R_BITS+1)-1 DOWNTO 0);
-        SK1_RAND        : IN  STD_LOGIC_VECTOR(LOG2(R_BITS+1)-1 DOWNTO 0); 
+        SK0_RAND        : IN  STD_LOGIC_VECTOR(LOG2(12323+1)-1 DOWNTO 0);
+        SK1_RAND        : IN  STD_LOGIC_VECTOR(LOG2(12323+1)-1 DOWNTO 0); 
         SIGMA_RAND      : IN  STD_LOGIC_VECTOR(31 DOWNTO 0);
         --SGMA1_RAND     : IN  STD_LOGIC_VECTOR(31 DOWNTO 0);  
         -- OUTPUT ----------------------
@@ -100,8 +102,8 @@ ARCHITECTURE Structural OF TB_BIKE IS
 --    SIGNAL btn                       : STD_LOGIC := '0';
     
     
-    SIGNAL SK0_RAND                     : STD_LOGIC_VECTOR(LOG2(R_BITS+1)-1 DOWNTO 0) := (OTHERS => '0');
-    SIGNAL SK1_RAND                     : STD_LOGIC_VECTOR(LOG2(R_BITS+1)-1 DOWNTO 0) := (OTHERS => '0');
+    SIGNAL SK0_RAND                     : STD_LOGIC_VECTOR(LOG2(12323+1)-1 DOWNTO 0) := (OTHERS => '0');
+    SIGNAL SK1_RAND                     : STD_LOGIC_VECTOR(LOG2(12323+1)-1 DOWNTO 0) := (OTHERS => '0');
     SIGNAL SIGMA_RAND                   : STD_LOGIC_VECTOR(31 DOWNTO 0);
     SIGNAL SIGMA0_RAND                  : STD_LOGIC_VECTOR(31 DOWNTO 0);
     SIGNAL SIGMA1_RAND                  : STD_LOGIC_VECTOR(31 DOWNTO 0); 
@@ -116,10 +118,10 @@ ARCHITECTURE Structural OF TB_BIKE IS
     signal dummy_din  : std_logic_vector(31 downto 0) := (others => '0');
 --                     sk0    
     signal sk0_addr : std_logic_vector(6 downto 0);        -- 8-bit address
-    signal sk0_data : STD_LOGIC_VECTOR(LOG2(R_BITS+1)-1 DOWNTO 0) := (OTHERS => '0'); -- std_logic_vector(31 downto 0);       -- 32-bit data
+    signal sk0_data : STD_LOGIC_VECTOR(LOG2(12323+1)-1 DOWNTO 0) := (OTHERS => '0'); -- STD_LOGIC_VECTOR(LOG2(R_BITS+1)-1 DOWNTO 0) := (OTHERS => '0'); -- std_logic_vector(31 downto 0);       -- 32-bit data
 --                     sk1 
     signal sk1_addr : std_logic_vector(6 downto 0);
-    signal sk1_data : STD_LOGIC_VECTOR(LOG2(R_BITS+1)-1 DOWNTO 0) := (OTHERS => '0'); -- std_logic_vector(31 downto 0);
+    signal sk1_data : STD_LOGIC_VECTOR(LOG2(12323+1)-1 DOWNTO 0) := (OTHERS => '0'); -- std_logic_vector(31 downto 0);
 --                    sigma
     signal sigma_addr : std_logic_vector(2 downto 0);         -- 4-bit address (for 16 entries)
     signal sigma_data : std_logic_vector(31 downto 0);        -- 32-bit output
@@ -151,6 +153,7 @@ BEGIN
         addra  => pk_addr,
         dina   => dummy_din,       -- unused
         douta  => pk_data          -- your actual data
+       
     );
     
     -- 2. sk0
@@ -199,7 +202,7 @@ BEGIN
     PORT MAP (
         CLK             => CLK,
         -- CONTROL PORTS ---------------
-        RESET           => RESET,
+        RESET           => reset_btn,
         ENABLE          => ENABLE,
         KEYGEN_DONE     => KEY_GENERATION2,
         --ENCAPS_DONE     => ENCAPS_DONE,
@@ -249,8 +252,8 @@ BEGIN
         VARIABLE V_ILINE_SIGMA0 : LINE;
         
         
-        VARIABLE V_SK0          : STD_LOGIC_VECTOR(LOG2(R_BITS+1)-1  DOWNTO 0);
-        VARIABLE V_SK1          : STD_LOGIC_VECTOR(LOG2(R_BITS+1)-1  DOWNTO 0);
+        VARIABLE V_SK0          : STD_LOGIC_VECTOR(LOG2(12323+1)-1  DOWNTO 0);
+        VARIABLE V_SK1          : STD_LOGIC_VECTOR(LOG2(12323+1)-1  DOWNTO 0);
         VARIABLE V_SIGMA0       : STD_LOGIC_VECTOR(31  DOWNTO 0);
         VARIABLE TRIGGER_SK0    : STD_LOGIC := '0';
         VARIABLE TRIGGER_SK1    : STD_LOGIC := '0';

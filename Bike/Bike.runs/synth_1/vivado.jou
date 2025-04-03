@@ -3,11 +3,11 @@
 # SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Sun Mar 30 22:41:58 2025
-# Process ID         : 21880
+# Start of session at: Tue Apr  1 17:23:48 2025
+# Process ID         : 24000
 # Current directory  : E:/GitHub/viVado_Projects/Bike/Bike.runs/synth_1
-# Command line       : vivado.exe -log TB_BIKE.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TB_BIKE.tcl
-# Log file           : E:/GitHub/viVado_Projects/Bike/Bike.runs/synth_1/TB_BIKE.vds
+# Command line       : vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file           : E:/GitHub/viVado_Projects/Bike/Bike.runs/synth_1/design_1_wrapper.vds
 # Journal file       : E:/GitHub/viVado_Projects/Bike/Bike.runs/synth_1\vivado.jou
 # Running On         : AbdelazizPC
 # Platform           : Windows Server 2016 or Windows 10
@@ -19,6 +19,6 @@
 # Host memory        : 42772 MB
 # Swap memory        : 6174 MB
 # Total Virtual      : 48946 MB
-# Available Virtual  : 30265 MB
+# Available Virtual  : 29093 MB
 #-----------------------------------------------------------
-source TB_BIKE.tcl -notrace
+source design_1_wrapper.tcl -notrace

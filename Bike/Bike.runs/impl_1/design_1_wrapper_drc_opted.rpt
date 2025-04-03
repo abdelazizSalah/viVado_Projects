@@ -1,0 +1,148 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Tue Apr  1 17:25:11 2025
+| Host         : AbdelazizPC running 64-bit major release  (build 9200)
+| Command      : report_drc -file design_1_wrapper_drc_opted.rpt -pb design_1_wrapper_drc_opted.pb -rpx design_1_wrapper_drc_opted.rpx
+| Design       : design_1_wrapper
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max checks: <unlimited>
+             Checks found: 22
++-----------+----------+----------------------------+--------+
+| Rule      | Severity | Description                | Checks |
++-----------+----------+----------------------------+--------+
+| CHECK-3   | Warning  | Report rule limit reached  | 1      |
+| REQP-1839 | Warning  | RAMB36 async control check | 20     |
+| ZPS7-1    | Warning  | PS7 block required         | 1      |
++-----------+----------+----------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+CHECK-3#1 Warning
+Report rule limit reached  
+REQP-1839 rule limit reached: 20 violations have been found.
+Related violations: <none>
+
+REQP-1839#1 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst has an input control pin design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst/ADDRARDADDR[11] (net: design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/ADDRARDADDR[6]) which is driven by a register (design_1_i/sk0_memory_0/inst/counter_reg_rep[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#2 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst has an input control pin design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst/ADDRARDADDR[11] (net: design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/ADDRARDADDR[6]) which is driven by a register (design_1_i/sk0_memory_0/inst/counter_reg_rep[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#3 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst has an input control pin design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst/ADDRARDADDR[11] (net: design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/ADDRARDADDR[6]) which is driven by a register (design_1_i/sk0_memory_0/inst/counter_reg_rep[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#4 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst has an input control pin design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst/ADDRARDADDR[11] (net: design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/ADDRARDADDR[6]) which is driven by a register (design_1_i/sk0_memory_0/inst/counter_reg_rep[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#5 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst has an input control pin design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst/ADDRARDADDR[11] (net: design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/ADDRARDADDR[6]) which is driven by a register (design_1_i/sk0_memory_0/inst/counter_reg_rep[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#6 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst has an input control pin design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst/ADDRARDADDR[11] (net: design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/ADDRARDADDR[6]) which is driven by a register (design_1_i/sk0_memory_0/inst/counter_reg_rep[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#7 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst has an input control pin design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst/ADDRARDADDR[12] (net: design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/ADDRARDADDR[7]) which is driven by a register (design_1_i/sk0_memory_0/inst/counter_reg_rep[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#8 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst has an input control pin design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst/ADDRARDADDR[12] (net: design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/ADDRARDADDR[7]) which is driven by a register (design_1_i/sk0_memory_0/inst/counter_reg_rep[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#9 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst has an input control pin design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst/ADDRARDADDR[12] (net: design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/ADDRARDADDR[7]) which is driven by a register (design_1_i/sk0_memory_0/inst/counter_reg_rep[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#10 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst has an input control pin design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst/ADDRARDADDR[12] (net: design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/ADDRARDADDR[7]) which is driven by a register (design_1_i/sk0_memory_0/inst/counter_reg_rep[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#11 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst has an input control pin design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst/ADDRARDADDR[12] (net: design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/ADDRARDADDR[7]) which is driven by a register (design_1_i/sk0_memory_0/inst/counter_reg_rep[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#12 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst has an input control pin design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst/ADDRARDADDR[12] (net: design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/ADDRARDADDR[7]) which is driven by a register (design_1_i/sk0_memory_0/inst/counter_reg_rep[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#13 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst has an input control pin design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst/ADDRARDADDR[12] (net: design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/ADDRARDADDR[7]) which is driven by a register (design_1_i/sk0_memory_0/inst/counter_reg_rep[6]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#14 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst has an input control pin design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst/ADDRARDADDR[13] (net: design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/ADDRARDADDR[8]) which is driven by a register (design_1_i/sk0_memory_0/inst/counter_reg_rep[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#15 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst has an input control pin design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst/ADDRARDADDR[13] (net: design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/ADDRARDADDR[8]) which is driven by a register (design_1_i/sk0_memory_0/inst/counter_reg_rep[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#16 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst has an input control pin design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst/ADDRARDADDR[13] (net: design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/ADDRARDADDR[8]) which is driven by a register (design_1_i/sk0_memory_0/inst/counter_reg_rep[2]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#17 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst has an input control pin design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst/ADDRARDADDR[13] (net: design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/ADDRARDADDR[8]) which is driven by a register (design_1_i/sk0_memory_0/inst/counter_reg_rep[3]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#18 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst has an input control pin design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst/ADDRARDADDR[13] (net: design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/ADDRARDADDR[8]) which is driven by a register (design_1_i/sk0_memory_0/inst/counter_reg_rep[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#19 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst has an input control pin design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst/ADDRARDADDR[13] (net: design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/ADDRARDADDR[8]) which is driven by a register (design_1_i/sk0_memory_0/inst/counter_reg_rep[5]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#20 Warning
+RAMB36 async control check  
+The RAMB36E1 design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst has an input control pin design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/RAMB36E1_inst/ADDRARDADDR[13] (net: design_1_i/BIKE_0/inst/BRAM_SK/I0_BRAM.BRAM_SK/BRAM/ADDRARDADDR[8]) which is driven by a register (design_1_i/sk0_memory_0/inst/counter_reg_rep[6]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+ZPS7-1#1 Warning
+PS7 block required  
+The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+Related violations: <none>
+
+

@@ -1,33 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1743367313" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/TB_BIKE.dcp">
-  <File Type="PA-TCL" Name="TB_BIKE.tcl"/>
-  <File Type="REPORTS-TCL" Name="TB_BIKE_reports.tcl"/>
-  <File Type="RDS-RDS" Name="TB_BIKE.vds"/>
-  <File Type="RDS-PROPCONSTRS" Name="TB_BIKE_drc_synth.rpt"/>
-  <File Type="RDS-UTIL" Name="TB_BIKE_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="TB_BIKE_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="TB_BIKE.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="TB_BIKE_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="TB_BIKE_timing_summary_synth.pb"/>
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1743521024" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/TB_BIKE.dcp">
+  <File Type="REPORTS-TCL" Name="design_1_wrapper_reports.tcl"/>
+  <File Type="RDS-UTIL" Name="design_1_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="design_1_wrapper_utilization_synth.pb"/>
+  <File Type="PA-TCL" Name="design_1_wrapper.tcl"/>
+  <File Type="RDS-RDS" Name="design_1_wrapper.vds"/>
+  <File Type="RDS-DCP" Name="design_1_wrapper.dcp"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PSRCDIR/sources_1/imports/ip/blk_mem_gen_pk/blk_mem_gen_pk.dcp">
-      <FileInfo>
-        <Attr Name="ImportPath" Val="$PGENDIR/sources_1/ip/blk_mem_gen_pk/blk_mem_gen_pk.dcp"/>
-        <Attr Name="ImportTime" Val="1743329635"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/imports/ip/blk_mem_gen_sk1/simulation/blk_mem_gen_v8_4.v">
-      <FileInfo>
-        <Attr Name="ImportPath" Val="$PGENDIR/sources_1/ip/blk_mem_gen_sk1/simulation/blk_mem_gen_v8_4.v"/>
-        <Attr Name="ImportTime" Val="1743329750"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
     <File Path="$PSRCDIR/sources_1/imports/B32S1/BIKE_settings.vhd">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../../Prevasive_Internship/Bike_Implementation/BIKE-main/HDL/KeyGeneration/Level 1/B32S1/BIKE_settings.vhd"/>
@@ -172,8 +152,74 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/imports/Bike_Implementation/sk0_vhdlCode.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Prevasive_Internship/Bike_Implementation/sk0_vhdlCode.vhd"/>
+        <Attr Name="ImportTime" Val="1743514870"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Bike_Implementation/sk1_vhdlCode.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Prevasive_Internship/Bike_Implementation/sk1_vhdlCode.vhd"/>
+        <Attr Name="ImportTime" Val="1743514876"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Bike_Implementation/sigma_vhdlCode.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Prevasive_Internship/Bike_Implementation/sigma_vhdlCode.vhd"/>
+        <Attr Name="ImportTime" Val="1743514866"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Bike_Implementation/outputComparator.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Prevasive_Internship/Bike_Implementation/outputComparator.vhd"/>
+        <Attr Name="ImportTime" Val="1743519151"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_1/design_1.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/design_1/hdl/design_1_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ip/blk_mem_gen_pk/blk_mem_gen_pk.dcp">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PGENDIR/sources_1/ip/blk_mem_gen_pk/blk_mem_gen_pk.dcp"/>
+        <Attr Name="ImportTime" Val="1743329635"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ip/blk_mem_gen_sk1/simulation/blk_mem_gen_v8_4.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PGENDIR/sources_1/ip/blk_mem_gen_sk1/simulation/blk_mem_gen_v8_4.v"/>
+        <Attr Name="ImportTime" Val="1743329750"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/imports/ip/blk_mem_gen_pk/synth/blk_mem_gen_pk.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="ImportPath" Val="$PGENDIR/sources_1/ip/blk_mem_gen_pk/synth/blk_mem_gen_pk.vhd"/>
         <Attr Name="ImportTime" Val="1743329566"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -182,6 +228,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/synth/blk_mem_gen_pk.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="ImportPath" Val="$PGENDIR/sources_1/ip/blk_mem_gen_pk/synth/blk_mem_gen_pk.vhd"/>
         <Attr Name="ImportTime" Val="1743329566"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -190,6 +237,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/ip/blk_mem_gen_pk/blk_mem_gen_pk_stub.vhdl">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="ImportPath" Val="$PGENDIR/sources_1/ip/blk_mem_gen_pk/blk_mem_gen_pk_stub.vhdl"/>
         <Attr Name="ImportTime" Val="1743329635"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -198,6 +246,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/synth/blk_mem_gen_sk0.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="ImportPath" Val="$PGENDIR/sources_1/ip/blk_mem_gen_sk0/synth/blk_mem_gen_sk0.vhd"/>
         <Attr Name="ImportTime" Val="1743329681"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -206,6 +255,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/ip/blk_mem_gen_sk0/blk_mem_gen_sk0_stub.vhdl">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="ImportPath" Val="$PGENDIR/sources_1/ip/blk_mem_gen_sk0/blk_mem_gen_sk0_stub.vhdl"/>
         <Attr Name="ImportTime" Val="1743329740"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -214,6 +264,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/ip/blk_mem_gen_sk1/synth/blk_mem_gen_sk1.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="ImportPath" Val="$PGENDIR/sources_1/ip/blk_mem_gen_sk1/synth/blk_mem_gen_sk1.vhd"/>
         <Attr Name="ImportTime" Val="1743329750"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -222,6 +273,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/ip/blk_mem_gen_sk1/blk_mem_gen_sk1_stub.vhdl">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="ImportPath" Val="$PGENDIR/sources_1/ip/blk_mem_gen_sk1/blk_mem_gen_sk1_stub.vhdl"/>
         <Attr Name="ImportTime" Val="1743329809"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -230,6 +282,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/ip/blk_mem_gen_sigma/synth/blk_mem_gen_sigma.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="ImportPath" Val="$PGENDIR/sources_1/ip/blk_mem_gen_sigma/synth/blk_mem_gen_sigma.vhd"/>
         <Attr Name="ImportTime" Val="1743329803"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -238,6 +291,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/ip/blk_mem_gen_sigma/blk_mem_gen_sigma_stub.vhdl">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="ImportPath" Val="$PGENDIR/sources_1/ip/blk_mem_gen_sigma/blk_mem_gen_sigma_stub.vhdl"/>
         <Attr Name="ImportTime" Val="1743329864"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -246,6 +300,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/Bike_Implementation/mohab_led.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="ImportPath" Val="$PPRDIR/../../Prevasive_Internship/Bike_Implementation/mohab_led.vhd"/>
         <Attr Name="ImportTime" Val="1743117284"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -254,6 +309,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/B32S1/TB_BIKE.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="ImportPath" Val="$PPRDIR/../../Prevasive_Internship/Bike_Implementation/BIKE-main/HDL/KeyGeneration/Level 1/B32S1/TB_BIKE.vhd"/>
         <Attr Name="ImportTime" Val="1741648391"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -318,21 +374,19 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="TB_BIKE"/>
-      <Option Name="TopAutoSet" Val="TRUE"/>
+      <Option Name="TopModule" Val="design_1_wrapper"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
     <Filter Type="Constrs"/>
-    <File Path="$PSRCDIR/constrs_1/imports/digilent-xdc-master/Arty-Z7-20-Master.xdc">
+    <File Path="$PSRCDIR/constrs_1/new/constraints.xdc">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../digilent-xdc-master/digilent-xdc-master/Arty-Z7-20-Master.xdc"/>
-        <Attr Name="ImportTime" Val="1741431375"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
       </FileInfo>
     </File>
     <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/constraints.xdc"/>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
   </FileSet>
@@ -354,7 +408,11 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_sk0"/>
-  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_sk1"/>
-  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_sigma"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_util_vector_logic_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_BIKE_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_clk_wiz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_sk1_memory_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_sigma_memory_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_sk0_memory_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_comparator_0_0"/>
 </GenRun>

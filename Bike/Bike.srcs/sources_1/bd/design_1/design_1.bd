@@ -1,0 +1,450 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xB162C570B4D0D189",
+      "device": "xc7z020clg400-1",
+      "gen_directory": "../../../../Bike.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "BIKE_0": "",
+      "clk_wiz": "",
+      "util_vector_logic_0": "",
+      "sk0_memory_0": "",
+      "sk1_memory_0": "",
+      "sigma_memory_0": "",
+      "comparator_0": ""
+    },
+    "ports": {
+      "sys_clock": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "design_1_sys_clock",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "125000000"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0"
+          }
+        }
+      },
+      "reset_rtl": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      },
+      "reset": {
+        "direction": "I",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "keygen_done": {
+        "direction": "O"
+      },
+      "enableBTN": {
+        "direction": "I"
+      },
+      "comparator_flag": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "BIKE_0": {
+        "vlnv": "xilinx.com:module_ref:BIKE:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_BIKE_0_0",
+        "xci_path": "ip\\design_1_BIKE_0_0\\design_1_BIKE_0_0.xci",
+        "inst_hier_path": "BIKE_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "BIKE",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "CLK": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "RESET",
+                "value_src": "constant"
+              },
+              "FREQ_HZ": {
+                "value": "100000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "RESET": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "ENABLE": {
+            "direction": "I"
+          },
+          "KEYGEN_DONE": {
+            "direction": "O"
+          },
+          "SK0_RAND": {
+            "direction": "I",
+            "left": "13",
+            "right": "0"
+          },
+          "SK1_RAND": {
+            "direction": "I",
+            "left": "13",
+            "right": "0"
+          },
+          "SIGMA_RAND": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "PK_OUT": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "clk_wiz": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "ip_revision": "15",
+        "xci_name": "design_1_clk_wiz_0",
+        "xci_path": "ip\\design_1_clk_wiz_0\\design_1_clk_wiz_0.xci",
+        "inst_hier_path": "clk_wiz",
+        "parameters": {
+          "CLKOUT1_REQUESTED_OUT_FREQ": {
+            "value": "100.0"
+          },
+          "CLK_IN1_BOARD_INTERFACE": {
+            "value": "sys_clock"
+          },
+          "USE_BOARD_FLOW": {
+            "value": "true"
+          }
+        }
+      },
+      "util_vector_logic_0": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "ip_revision": "4",
+        "xci_name": "design_1_util_vector_logic_0_0",
+        "xci_path": "ip\\design_1_util_vector_logic_0_0\\design_1_util_vector_logic_0_0.xci",
+        "inst_hier_path": "util_vector_logic_0",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "not"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "sk0_memory_0": {
+        "vlnv": "xilinx.com:module_ref:sk0_memory:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_sk0_memory_0_0",
+        "xci_path": "ip\\design_1_sk0_memory_0_0\\design_1_sk0_memory_0_0.xci",
+        "inst_hier_path": "sk0_memory_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "sk0_memory",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              },
+              "FREQ_HZ": {
+                "value": "100000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "memoOut": {
+            "direction": "O",
+            "left": "13",
+            "right": "0"
+          }
+        }
+      },
+      "sk1_memory_0": {
+        "vlnv": "xilinx.com:module_ref:sk1_memory:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_sk1_memory_0_0",
+        "xci_path": "ip\\design_1_sk1_memory_0_0\\design_1_sk1_memory_0_0.xci",
+        "inst_hier_path": "sk1_memory_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "sk1_memory",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              },
+              "FREQ_HZ": {
+                "value": "100000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "memoOut": {
+            "direction": "O",
+            "left": "13",
+            "right": "0"
+          }
+        }
+      },
+      "sigma_memory_0": {
+        "vlnv": "xilinx.com:module_ref:sigma_memory:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_sigma_memory_0_0",
+        "xci_path": "ip\\design_1_sigma_memory_0_0\\design_1_sigma_memory_0_0.xci",
+        "inst_hier_path": "sigma_memory_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "sigma_memory",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              },
+              "FREQ_HZ": {
+                "value": "100000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "memoOut": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
+      },
+      "comparator_0": {
+        "vlnv": "xilinx.com:module_ref:comparator:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_1_comparator_0_0",
+        "xci_path": "ip\\design_1_comparator_0_0\\design_1_comparator_0_0.xci",
+        "inst_hier_path": "comparator_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "comparator",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              },
+              "FREQ_HZ": {
+                "value": "100000000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "0.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "memoIn": {
+            "direction": "I",
+            "left": "31",
+            "right": "0"
+          },
+          "checkFlag": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "BIKE_0_KEYGEN_DONE": {
+        "ports": [
+          "BIKE_0/KEYGEN_DONE",
+          "keygen_done"
+        ]
+      },
+      "BIKE_0_PK_OUT": {
+        "ports": [
+          "BIKE_0/PK_OUT",
+          "comparator_0/memoIn"
+        ]
+      },
+      "clk_wiz_clk_out1": {
+        "ports": [
+          "clk_wiz/clk_out1",
+          "BIKE_0/CLK",
+          "sigma_memory_0/clk",
+          "sk0_memory_0/clk",
+          "comparator_0/clk",
+          "sk1_memory_0/clk"
+        ]
+      },
+      "comparator_0_checkFlag": {
+        "ports": [
+          "comparator_0/checkFlag",
+          "comparator_flag"
+        ]
+      },
+      "enableBTN_1": {
+        "ports": [
+          "enableBTN",
+          "BIKE_0/ENABLE"
+        ]
+      },
+      "reset_1": {
+        "ports": [
+          "reset",
+          "util_vector_logic_0/Op1",
+          "sigma_memory_0/reset",
+          "sk0_memory_0/reset",
+          "comparator_0/reset",
+          "sk1_memory_0/reset"
+        ]
+      },
+      "reset_rtl_1": {
+        "ports": [
+          "reset_rtl",
+          "clk_wiz/reset"
+        ]
+      },
+      "sigma_memory_0_memoOut": {
+        "ports": [
+          "sigma_memory_0/memoOut",
+          "BIKE_0/SIGMA_RAND"
+        ]
+      },
+      "sk0_memory_0_memoOut": {
+        "ports": [
+          "sk0_memory_0/memoOut",
+          "BIKE_0/SK0_RAND"
+        ]
+      },
+      "sk1_memory_0_memoOut": {
+        "ports": [
+          "sk1_memory_0/memoOut",
+          "BIKE_0/SK1_RAND"
+        ]
+      },
+      "sys_clock_1": {
+        "ports": [
+          "sys_clock",
+          "clk_wiz/clk_in1"
+        ]
+      },
+      "util_vector_logic_0_Res": {
+        "ports": [
+          "util_vector_logic_0/Res",
+          "BIKE_0/RESET"
+        ]
+      }
+    }
+  }
+}

@@ -13,7 +13,7 @@
 -- LICENCE: 				Please look at licence.txt
 -- USAGE INFORMATION:	    Please look at readme.txt. If licence.txt or readme.txt
 --							are missing or	if you have questions regarding the code
---							please contact Tim Güneysu (tim.gueneysu@rub.de) and
+--							please contact Tim Gï¿½neysu (tim.gueneysu@rub.de) and
 --                          Jan Richter-Brockmann (jan.richter-brockmann@rub.de)
 --
 -- THIS CODE AND INFORMATION ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY 
@@ -36,12 +36,13 @@ LIBRARY UNISIM;
     
 LIBRARY work;
     USE work.BIKE_SETTINGS.ALL;
-
-
+   
+--constant R_BITs : integer := 12323;
 
 -- ENTITY
 ----------------------------------------------------------------------------------
 ENTITY BIKE IS
+generic (R_BITS : integer := 12323);
 	PORT (  
         CLK             : IN  STD_LOGIC;
         -- CONTROL PORTS ---------------    
@@ -49,8 +50,8 @@ ENTITY BIKE IS
         ENABLE          : IN  STD_LOGIC;
         KEYGEN_DONE     : OUT STD_LOGIC;
         -- RANDOMNESS-------------------
-        SK0_RAND        : IN  STD_LOGIC_VECTOR(LOG2(R_BITS+1)-1 DOWNTO 0);
-        SK1_RAND        : IN  STD_LOGIC_VECTOR(LOG2(R_BITS+1)-1 DOWNTO 0);
+        SK0_RAND        : IN  STD_LOGIC_VECTOR(13 DOWNTO 0);
+        SK1_RAND        : IN  STD_LOGIC_VECTOR(13 DOWNTO 0);
         SIGMA_RAND      : IN  STD_LOGIC_VECTOR(31 DOWNTO 0);
         -- OUTPUT ----------------------
         PK_OUT          : OUT STD_LOGIC_VECTOR(31 DOWNTO 0)   
@@ -82,7 +83,7 @@ SIGNAL SK0_SAMPLE_DONE, SK1_SAMPLE_DONE         : STD_LOGIC;
 SIGNAL SK0_DIN_A, SK0_DIN_B                     : STD_LOGIC_VECTOR(31 DOWNTO 0);
 SIGNAL SK1_DIN_A, SK1_DIN_B                     : STD_LOGIC_VECTOR(31 DOWNTO 0);
 
-SIGNAL SK0_SAMPLE_RAND, SK1_SAMPLE_RAND         : STD_LOGIC_VECTOR(LOG2(R_BITS+1)-1 DOWNTO 0);
+SIGNAL SK0_SAMPLE_RAND, SK1_SAMPLE_RAND         : STD_LOGIC_VECTOR(13 DOWNTO 0);
 
 SIGNAL SK0_SAMPLE_RDEN, SK0_SAMPLE_WREN         : STD_LOGIC;
 SIGNAL SK0_SAMPLE_ADDR                          : STD_LOGIC_VECTOR(LOG2(CEIL(R_BITS,32))-1 DOWNTO 0);

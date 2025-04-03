@@ -1,0 +1,109 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Tue Apr  1 17:25:26 2025
+| Host         : AbdelazizPC running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file design_1_wrapper_control_sets_placed.rpt
+| Design       : design_1_wrapper
+| Device       : xc7z020
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    31 |
+|    Minimum number of control sets                        |    31 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    88 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    31 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |     3 |
+| >= 6 to < 8        |     3 |
+| >= 8 to < 10       |     7 |
+| >= 10 to < 12      |     2 |
+| >= 12 to < 14      |     2 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    13 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              70 |           22 |
+| No           | No                    | Yes                    |              12 |            6 |
+| No           | Yes                   | No                     |              20 |            4 |
+| Yes          | No                    | No                     |               4 |            1 |
+| Yes          | No                    | Yes                    |               9 |            3 |
+| Yes          | Yes                   | No                     |             493 |          166 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------------+---------------------------------------------------------------------+------------------------------------------------------------------+------------------+----------------+--------------+
+|            Clock Signal           |                            Enable Signal                            |                         Set/Reset Signal                         | Slice Load Count | Bel Load Count | Bels / Slice |
++-----------------------------------+---------------------------------------------------------------------+------------------------------------------------------------------+------------------+----------------+--------------+
+|  design_1_i/clk_wiz/inst/clk_out1 | design_1_i/sigma_memory_0/inst/counter[1]_i_1_n_0                   | reset_IBUF                                                       |                1 |              2 |         2.00 |
+|  design_1_i/clk_wiz/inst/clk_out1 |                                                                     | design_1_i/BIKE_0/inst/INV/SQU_RESET_reg_n_0                     |                1 |              4 |         4.00 |
+|  design_1_i/clk_wiz/inst/clk_out1 | design_1_i/BIKE_0/inst/INV/MUL/DONE                                 |                                                                  |                1 |              4 |         4.00 |
+|  design_1_i/clk_wiz/inst/clk_out1 | design_1_i/BIKE_0/inst/INV/CNT_ROUND/COUNT                          | design_1_i/BIKE_0/inst/INV/CNT_ROUND_RST_reg_n_0                 |                1 |              4 |         4.00 |
+|  design_1_i/clk_wiz/inst/clk_out1 | design_1_i/sk0_memory_0/inst/sel                                    | reset_IBUF                                                       |                2 |              7 |         3.50 |
+|  design_1_i/clk_wiz/inst/clk_out1 | design_1_i/BIKE_0/inst/SAMPLE_SK0/COUNTER/COUNT                     | design_1_i/BIKE_0/inst/SAMPLE_SK0/CNT_RESET                      |                2 |              7 |         3.50 |
+|  design_1_i/clk_wiz/inst/clk_out1 | design_1_i/BIKE_0/inst/SAMPLE_SK1/COUNTER/COUNT                     | design_1_i/BIKE_0/inst/SAMPLE_SK1/CNT_RESET_reg_n_0              |                2 |              7 |         3.50 |
+|  design_1_i/clk_wiz/inst/clk_out1 | design_1_i/BIKE_0/inst/INV/SQU/SEL_ADDR[1]                          | design_1_i/BIKE_0/inst/INV/SQU/CNT1/COUNT[7]_i_1_n_0             |                3 |              8 |         2.67 |
+|  design_1_i/clk_wiz/inst/clk_out1 | design_1_i/BIKE_0/inst/INV/OUTPUT_COUNTER/COUNT                     | design_1_i/BIKE_0/inst/INV_RESET_reg_n_0                         |                4 |              9 |         2.25 |
+|  design_1_i/clk_wiz/inst/clk_out1 | design_1_i/BIKE_0/inst/INV/MUL/CNT_ROW_EN_reg_n_0                   | design_1_i/BIKE_0/inst/INV/MUL/ROW_COUNTER/COUNT[8]_i_1__1_n_0   |                3 |              9 |         3.00 |
+|  design_1_i/clk_wiz/inst/clk_out1 | design_1_i/BIKE_0/inst/INV/MUL/CNT_SHIFT_EN_reg_n_0                 | design_1_i/BIKE_0/inst/INV/MUL/SHIFT_COUNTER/COUNT[8]_i_1__3_n_0 |                3 |              9 |         3.00 |
+|  design_1_i/clk_wiz/inst/clk_out1 | design_1_i/BIKE_0/inst/INV/MUL/CNT_COL_EN_reg_n_0                   | design_1_i/BIKE_0/inst/INV/MUL/ROL_COUNTER/COUNT[8]_i_1__2_n_0   |                2 |              9 |         4.50 |
+|  design_1_i/clk_wiz/inst/clk_out1 | design_1_i/BIKE_0/inst/INV/SQU/CNT_OUT/COUNT                        | design_1_i/BIKE_0/inst/INV/SQU/CNT_RST_OUT__0                    |                3 |              9 |         3.00 |
+|  design_1_i/clk_wiz/inst/clk_out1 | design_1_i/BIKE_0/inst/INV/SQU/SEL_ADDR[0]                          | design_1_i/BIKE_0/inst/INV/SQU/CNT0/COUNT[8]_i_1_n_0             |                4 |              9 |         2.25 |
+|  design_1_i/clk_wiz/inst/clk_out1 | design_1_i/BIKE_0/inst/INV/SEL_BRAM_FSM/FSM_onehot_STATE[8]_i_1_n_0 | design_1_i/BIKE_0/inst/INV_RESET_reg_n_0                         |                6 |             10 |         1.67 |
+|  design_1_i/clk_wiz/inst/clk_out1 | design_1_i/BIKE_0/inst/KEYGEN_SAMPLE_ENABLE_reg_n_0                 | design_1_i/BIKE_0/inst/SAMPLE_RESET_reg_n_0                      |                4 |             10 |         2.50 |
+|  design_1_i/clk_wiz/inst/clk_out1 |                                                                     | reset_IBUF                                                       |                6 |             12 |         2.00 |
+|  design_1_i/clk_wiz/inst/clk_out1 | design_1_i/BIKE_0/inst/INV/CNT_SQU/COUNT                            | design_1_i/BIKE_0/inst/INV/CNT_SQU_RST_reg_n_0                   |                4 |             13 |         3.25 |
+|  design_1_i/clk_wiz/inst/clk_out1 |                                                                     | design_1_i/BIKE_0/inst/INV/MUL_RESET_reg_n_0                     |                3 |             16 |         5.33 |
+|  design_1_i/clk_wiz/inst/clk_out1 | design_1_i/BIKE_0/inst/INV/SQU/REG_EN[0]                            | design_1_i/BIKE_0/inst/INV/SQU_RESET_reg_n_0                     |               13 |             30 |         2.31 |
+|  design_1_i/clk_wiz/inst/clk_out1 | design_1_i/BIKE_0/inst/INV/SQU/REG_EN[1]                            | design_1_i/BIKE_0/inst/INV/SQU_RESET_reg_n_0                     |               13 |             32 |         2.46 |
+|  design_1_i/clk_wiz/inst/clk_out1 | design_1_i/BIKE_0/inst/SIGMA_REG_EN__0[0]                           | design_1_i/util_vector_logic_0/Res[0]                            |                5 |             32 |         6.40 |
+|  design_1_i/clk_wiz/inst/clk_out1 | design_1_i/BIKE_0/inst/SIGMA_REG_EN__0[1]                           | design_1_i/util_vector_logic_0/Res[0]                            |                4 |             32 |         8.00 |
+|  design_1_i/clk_wiz/inst/clk_out1 | design_1_i/BIKE_0/inst/SIGMA_REG_EN__0[2]                           | design_1_i/util_vector_logic_0/Res[0]                            |                5 |             32 |         6.40 |
+|  design_1_i/clk_wiz/inst/clk_out1 | design_1_i/BIKE_0/inst/SIGMA_REG_EN__0[3]                           | design_1_i/util_vector_logic_0/Res[0]                            |                7 |             32 |         4.57 |
+|  design_1_i/clk_wiz/inst/clk_out1 | design_1_i/BIKE_0/inst/SIGMA_REG_EN__0[4]                           | design_1_i/util_vector_logic_0/Res[0]                            |                7 |             32 |         4.57 |
+|  design_1_i/clk_wiz/inst/clk_out1 | design_1_i/BIKE_0/inst/SIGMA_REG_EN__0[5]                           | design_1_i/util_vector_logic_0/Res[0]                            |                7 |             32 |         4.57 |
+|  design_1_i/clk_wiz/inst/clk_out1 | design_1_i/BIKE_0/inst/SIGMA_REG_EN__0[6]                           | design_1_i/util_vector_logic_0/Res[0]                            |                7 |             32 |         4.57 |
+|  design_1_i/clk_wiz/inst/clk_out1 | design_1_i/BIKE_0/inst/SIGMA_REG_EN__0[7]                           | design_1_i/util_vector_logic_0/Res[0]                            |                5 |             32 |         6.40 |
+|  design_1_i/clk_wiz/inst/clk_out1 | design_1_i/BIKE_0/inst/INV/MUL_ENABLE_reg_n_0                       | design_1_i/BIKE_0/inst/INV/MUL_RESET_reg_n_0                     |               52 |             62 |         1.19 |
+|  design_1_i/clk_wiz/inst/clk_out1 |                                                                     |                                                                  |               22 |             70 |         3.18 |
++-----------------------------------+---------------------------------------------------------------------+------------------------------------------------------------------+------------------+----------------+--------------+
+
+

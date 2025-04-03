@@ -1,108 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1743367313">
-  <File Type="PA-TCL" Name="TB_BIKE.tcl"/>
-  <File Type="REPORTS-TCL" Name="TB_BIKE_reports.tcl"/>
-  <File Type="INIT-TIMING" Name="TB_BIKE_timing_summary_init.rpt"/>
-  <File Type="OPT-DCP" Name="TB_BIKE_opt.dcp"/>
-  <File Type="OPT-DRC" Name="TB_BIKE_drc_opted.rpt"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="TB_BIKE_methodology_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="TB_BIKE.hwdef"/>
-  <File Type="OPT-TIMING" Name="TB_BIKE_timing_summary_opted.rpt"/>
-  <File Type="OPT-RQA-PB" Name="TB_BIKE_rqa_opted.pb"/>
-  <File Type="PWROPT-DCP" Name="TB_BIKE_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="TB_BIKE_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="TB_BIKE_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="TB_BIKE_placed.dcp"/>
-  <File Type="PLACE-IO" Name="TB_BIKE_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="TB_BIKE_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="TB_BIKE_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="TB_BIKE_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="TB_BIKE_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="TB_BIKE_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="TB_BIKE_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-TIMING" Name="TB_BIKE_timing_summary_placed.rpt"/>
-  <File Type="PLACE-RQA-PB" Name="TB_BIKE_rqa_placed.pb"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="TB_BIKE_postplace_pwropt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="TB_BIKE_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="TB_BIKE_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="TB_BIKE_drc_physopted.rpt"/>
-  <File Type="PHYSOPT-TIMING" Name="TB_BIKE_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="TB_BIKE_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="TB_BIKE_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="TB_BIKE_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="TB_BIKE_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="TB_BIKE_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="TB_BIKE_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="TB_BIKE_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="TB_BIKE_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="TB_BIKE_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR" Name="TB_BIKE_power_routed.rpt"/>
-  <File Type="ROUTE-PWR-SUM" Name="TB_BIKE_power_summary_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="TB_BIKE_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="TB_BIKE_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="TB_BIKE_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="TB_BIKE_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="TB_BIKE_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="TB_BIKE_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="TB_BIKE_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="TB_BIKE_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="TB_BIKE_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="TB_BIKE_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="TB_BIKE_bus_skew_routed.rpx"/>
-  <File Type="ROUTE-RQS-PB" Name="TB_BIKE_rqs_routed.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="TB_BIKE_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="TB_BIKE_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="TB_BIKE_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="TB_BIKE_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="TB_BIKE_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="TB_BIKE_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="TB_BIKE_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="TB_BIKE_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BG-BIT" Name="TB_BIKE.bit"/>
-  <File Type="BG-BIN" Name="TB_BIKE.bin"/>
-  <File Type="BITSTR-MSK" Name="TB_BIKE.msk"/>
-  <File Type="BITSTR-RBT" Name="TB_BIKE.rbt"/>
-  <File Type="BITSTR-NKY" Name="TB_BIKE.nky"/>
-  <File Type="BITSTR-BMM" Name="TB_BIKE_bd.bmm"/>
-  <File Type="BITSTR-MMI" Name="TB_BIKE.mmi"/>
-  <File Type="PDI-FILE" Name="TB_BIKE.pdi"/>
-  <File Type="BOOT-PDI-FILE" Name="TB_BIKE_boot.pdi"/>
-  <File Type="PL-PDI-FILE" Name="TB_BIKE_pld.pdi"/>
-  <File Type="RCFI_FILE" Name="TB_BIKE.rcfi"/>
-  <File Type="CFI_FILE" Name="TB_BIKE.cfi"/>
-  <File Type="RNPI_FILE" Name="TB_BIKE.rnpi"/>
-  <File Type="NPI_FILE" Name="TB_BIKE.npi"/>
-  <File Type="RBD_FILE" Name="TB_BIKE.rbd"/>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1743521024">
+  <File Type="REPORTS-TCL" Name="design_1_wrapper_reports.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="design_1_wrapper_power_summary_routed.pb"/>
+  <File Type="BITSTR-MMI" Name="design_1_wrapper.mmi"/>
+  <File Type="OPT-DRC" Name="design_1_wrapper_drc_opted.rpt"/>
+  <File Type="BG-DRC" Name="design_1_wrapper.drc"/>
+  <File Type="ROUTE-STATUS-PB" Name="design_1_wrapper_route_status.pb"/>
+  <File Type="BG-BGN" Name="design_1_wrapper.bgn"/>
+  <File Type="PLACE-UTIL" Name="design_1_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="design_1_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-IO" Name="design_1_wrapper_io_placed.rpt"/>
+  <File Type="BG-BIN" Name="design_1_wrapper.bin"/>
+  <File Type="PLACE-CTRL" Name="design_1_wrapper_control_sets_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="design_1_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-DCP" Name="design_1_wrapper_routed.dcp"/>
+  <File Type="BITSTR-MSK" Name="design_1_wrapper.msk"/>
+  <File Type="BITSTR-RBT" Name="design_1_wrapper.rbt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="design_1_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="design_1_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="design_1_wrapper_route_status.rpt"/>
+  <File Type="PA-TCL" Name="design_1_wrapper.tcl"/>
+  <File Type="ROUTE-PWR" Name="design_1_wrapper_power_routed.rpt"/>
+  <File Type="ROUTE-DRC" Name="design_1_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="design_1_wrapper_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="design_1_wrapper_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="design_1_wrapper.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="design_1_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="design_1_wrapper_methodology_drc_routed.rpx"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="TB_BIKE.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="TB_BIKE.sysdef"/>
-  <File Type="BG-BGN" Name="TB_BIKE.bgn"/>
-  <File Type="BG-DRC" Name="TB_BIKE.drc"/>
-  <File Type="RDI-RDI" Name="TB_BIKE.vdi"/>
+  <File Type="BITSTR-LTX" Name="design_1_wrapper.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="design_1_wrapper_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-SIMILARITY" Name="design_1_wrapper_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="design_1_wrapper.vdi"/>
+  <File Type="ROUTE-CLK" Name="design_1_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="design_1_wrapper_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="design_1_wrapper_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="design_1_wrapper_bus_skew_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="design_1_wrapper_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="design_1_wrapper_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="design_1_wrapper_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="design_1_wrapper_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="design_1_wrapper_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="design_1_wrapper.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="design_1_wrapper_bus_skew_postroute_physopted.pb"/>
+  <File Type="BITSTR-NKY" Name="design_1_wrapper.nky"/>
+  <File Type="BITSTR-BMM" Name="design_1_wrapper_bd.bmm"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="ROUTE-RQS" Name="TB_BIKE_routed.rqs"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS" Name="TB_BIKE_postroute_physopted.rqs"/>
+  <File Type="OPT-HWDEF" Name="design_1_wrapper.hwdef"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="design_1_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="design_1_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="design_1_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="design_1_wrapper_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="design_1_wrapper_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="design_1_wrapper_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="design_1_wrapper_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="design_1_wrapper_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="design_1_wrapper_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="design_1_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="design_1_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="PDI-FILE" Name="design_1_wrapper.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="design_1_wrapper_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="design_1_wrapper_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="design_1_wrapper.rcfi"/>
+  <File Type="CFI_FILE" Name="design_1_wrapper.cfi"/>
+  <File Type="RNPI_FILE" Name="design_1_wrapper.rnpi"/>
+  <File Type="NPI_FILE" Name="design_1_wrapper.npi"/>
+  <File Type="RBD_FILE" Name="design_1_wrapper.rbd"/>
+  <File Type="ROUTE-RQS" Name="design_1_wrapper_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="design_1_wrapper_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PSRCDIR/sources_1/imports/ip/blk_mem_gen_pk/blk_mem_gen_pk.dcp">
-      <FileInfo>
-        <Attr Name="ImportPath" Val="$PGENDIR/sources_1/ip/blk_mem_gen_pk/blk_mem_gen_pk.dcp"/>
-        <Attr Name="ImportTime" Val="1743329635"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/imports/ip/blk_mem_gen_sk1/simulation/blk_mem_gen_v8_4.v">
-      <FileInfo>
-        <Attr Name="ImportPath" Val="$PGENDIR/sources_1/ip/blk_mem_gen_sk1/simulation/blk_mem_gen_v8_4.v"/>
-        <Attr Name="ImportTime" Val="1743329750"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
     <File Path="$PSRCDIR/sources_1/imports/B32S1/BIKE_settings.vhd">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../../Prevasive_Internship/Bike_Implementation/BIKE-main/HDL/KeyGeneration/Level 1/B32S1/BIKE_settings.vhd"/>
@@ -247,8 +216,74 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/imports/Bike_Implementation/sk0_vhdlCode.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Prevasive_Internship/Bike_Implementation/sk0_vhdlCode.vhd"/>
+        <Attr Name="ImportTime" Val="1743514870"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Bike_Implementation/sk1_vhdlCode.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Prevasive_Internship/Bike_Implementation/sk1_vhdlCode.vhd"/>
+        <Attr Name="ImportTime" Val="1743514876"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Bike_Implementation/sigma_vhdlCode.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Prevasive_Internship/Bike_Implementation/sigma_vhdlCode.vhd"/>
+        <Attr Name="ImportTime" Val="1743514866"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Bike_Implementation/outputComparator.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Prevasive_Internship/Bike_Implementation/outputComparator.vhd"/>
+        <Attr Name="ImportTime" Val="1743519151"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/design_1/design_1.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/design_1/hdl/design_1_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ip/blk_mem_gen_pk/blk_mem_gen_pk.dcp">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PGENDIR/sources_1/ip/blk_mem_gen_pk/blk_mem_gen_pk.dcp"/>
+        <Attr Name="ImportTime" Val="1743329635"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ip/blk_mem_gen_sk1/simulation/blk_mem_gen_v8_4.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PGENDIR/sources_1/ip/blk_mem_gen_sk1/simulation/blk_mem_gen_v8_4.v"/>
+        <Attr Name="ImportTime" Val="1743329750"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/imports/ip/blk_mem_gen_pk/synth/blk_mem_gen_pk.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="ImportPath" Val="$PGENDIR/sources_1/ip/blk_mem_gen_pk/synth/blk_mem_gen_pk.vhd"/>
         <Attr Name="ImportTime" Val="1743329566"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -257,6 +292,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/synth/blk_mem_gen_pk.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="ImportPath" Val="$PGENDIR/sources_1/ip/blk_mem_gen_pk/synth/blk_mem_gen_pk.vhd"/>
         <Attr Name="ImportTime" Val="1743329566"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -265,6 +301,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/ip/blk_mem_gen_pk/blk_mem_gen_pk_stub.vhdl">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="ImportPath" Val="$PGENDIR/sources_1/ip/blk_mem_gen_pk/blk_mem_gen_pk_stub.vhdl"/>
         <Attr Name="ImportTime" Val="1743329635"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -273,6 +310,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/synth/blk_mem_gen_sk0.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="ImportPath" Val="$PGENDIR/sources_1/ip/blk_mem_gen_sk0/synth/blk_mem_gen_sk0.vhd"/>
         <Attr Name="ImportTime" Val="1743329681"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -281,6 +319,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/ip/blk_mem_gen_sk0/blk_mem_gen_sk0_stub.vhdl">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="ImportPath" Val="$PGENDIR/sources_1/ip/blk_mem_gen_sk0/blk_mem_gen_sk0_stub.vhdl"/>
         <Attr Name="ImportTime" Val="1743329740"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -289,6 +328,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/ip/blk_mem_gen_sk1/synth/blk_mem_gen_sk1.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="ImportPath" Val="$PGENDIR/sources_1/ip/blk_mem_gen_sk1/synth/blk_mem_gen_sk1.vhd"/>
         <Attr Name="ImportTime" Val="1743329750"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -297,6 +337,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/ip/blk_mem_gen_sk1/blk_mem_gen_sk1_stub.vhdl">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="ImportPath" Val="$PGENDIR/sources_1/ip/blk_mem_gen_sk1/blk_mem_gen_sk1_stub.vhdl"/>
         <Attr Name="ImportTime" Val="1743329809"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -305,6 +346,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/ip/blk_mem_gen_sigma/synth/blk_mem_gen_sigma.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="ImportPath" Val="$PGENDIR/sources_1/ip/blk_mem_gen_sigma/synth/blk_mem_gen_sigma.vhd"/>
         <Attr Name="ImportTime" Val="1743329803"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -313,6 +355,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/ip/blk_mem_gen_sigma/blk_mem_gen_sigma_stub.vhdl">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="ImportPath" Val="$PGENDIR/sources_1/ip/blk_mem_gen_sigma/blk_mem_gen_sigma_stub.vhdl"/>
         <Attr Name="ImportTime" Val="1743329864"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -321,6 +364,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/Bike_Implementation/mohab_led.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="ImportPath" Val="$PPRDIR/../../Prevasive_Internship/Bike_Implementation/mohab_led.vhd"/>
         <Attr Name="ImportTime" Val="1743117284"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -329,6 +373,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/imports/B32S1/TB_BIKE.vhd">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="ImportPath" Val="$PPRDIR/../../Prevasive_Internship/Bike_Implementation/BIKE-main/HDL/KeyGeneration/Level 1/B32S1/TB_BIKE.vhd"/>
         <Attr Name="ImportTime" Val="1741648391"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -393,21 +438,19 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="TB_BIKE"/>
-      <Option Name="TopAutoSet" Val="TRUE"/>
+      <Option Name="TopModule" Val="design_1_wrapper"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
     <Filter Type="Constrs"/>
-    <File Path="$PSRCDIR/constrs_1/imports/digilent-xdc-master/Arty-Z7-20-Master.xdc">
+    <File Path="$PSRCDIR/constrs_1/new/constraints.xdc">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../digilent-xdc-master/digilent-xdc-master/Arty-Z7-20-Master.xdc"/>
-        <Attr Name="ImportTime" Val="1741431375"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
       </FileInfo>
     </File>
     <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/constraints.xdc"/>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
   </FileSet>
@@ -436,8 +479,13 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_sk0"/>
-  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_sk1"/>
-  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_sigma"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_util_vector_logic_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_BIKE_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_clk_wiz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_sk1_memory_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_sigma_memory_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_sk0_memory_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_comparator_0_0"/>
 </GenRun>

@@ -2,3 +2,6 @@ Running: xsim.dir/TB_BIKE_behav/xsimk.exe -simmode gui -wdb TB_BIKE_behav.wdb -s
 Design successfully loaded
 Design Loading Memory Usage: 31620 KB (Peak: 31620 KB)
 Design Loading CPU Usage: 686 ms
+Simulation completed
+Simulation Memory Usage: 33260 KB (Peak: 33260 KB)
+Simulation CPU Usage: 765 ms

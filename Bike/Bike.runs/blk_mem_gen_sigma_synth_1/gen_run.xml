@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="blk_mem_gen_sigma_synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1743329804">
-  <File Type="PA-TCL" Name="blk_mem_gen_sigma.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="blk_mem_gen_sigma_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="blk_mem_gen_sigma_reports.tcl"/>
-  <File Type="RDS-RDS" Name="blk_mem_gen_sigma.vds"/>
   <File Type="RDS-UTIL" Name="blk_mem_gen_sigma_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="blk_mem_gen_sigma_utilization_synth.pb"/>
+  <File Type="PA-TCL" Name="blk_mem_gen_sigma.tcl"/>
+  <File Type="RDS-RDS" Name="blk_mem_gen_sigma.vds"/>
   <File Type="RDS-DCP" Name="blk_mem_gen_sigma.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="blk_mem_gen_sigma_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="blk_mem_gen_sigma_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/blk_mem_gen_sigma" RelGenDir="$PGENDIR/blk_mem_gen_sigma">
     <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_sigma/blk_mem_gen_sigma.xci">
       <FileInfo>
@@ -50,9 +47,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>
